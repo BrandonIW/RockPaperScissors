@@ -15,9 +15,8 @@ class RockPaperScissors:
         elif (user == 'rock' and computer == 'scissors') or (user == 'scissors' and computer == 'paper') or (user == 'paper' and computer == 'rock'):
             RockPaperScissors.user_score += 1
             return f"Winner is the User. Current score is:\nComputer: {RockPaperScissors.computer_score}\nUser: {RockPaperScissors.user_score}"
-
-        else:
-            return f"It's a tie. Current score is:\nComputer: {RockPaperScissors.computer_score}\nUser: {RockPaperScissors.user_score}"
+        
+        return f"It's a tie. Current score is:\nComputer: {RockPaperScissors.computer_score}\nUser: {RockPaperScissors.user_score}"
 
 
     def gameplay(self):
