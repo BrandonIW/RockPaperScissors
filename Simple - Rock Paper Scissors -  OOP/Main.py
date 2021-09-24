@@ -39,8 +39,7 @@ class RockPaperScissors:
 
         if RockPaperScissors.computer_score == 3:
             return "Computer wins"
-        else:
-            return "User wins"
+        return "User wins"
 
 if __name__ == '__main__':
     game1 = RockPaperScissors()
